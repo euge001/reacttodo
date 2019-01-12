@@ -13,9 +13,9 @@ export default class App extends Component {
 
   state = {
     todoData: [
-      this.createTodoItem("Drink Coffee"),
-      this.createTodoItem("Make Awesome App"),
-      this.createTodoItem("Have a lunch")
+      this.createTodoItem("Call Saul"),
+      this.createTodoItem("Clean your mess"),
+      this.createTodoItem("Play the game")
     ],
     term: "",
     filter: "all"
